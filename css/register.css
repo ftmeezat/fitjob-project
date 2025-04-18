@@ -1,6 +1,6 @@
 body{background-color: #E4FFFF}
 .container{height: 100vh}
-.card{width: 100%;padding: 30px}
+.card{padding: 30px}
 .form{padding: 20px}
 .form-control{height: 50px;background-color: #eee}
 .form-control:focus{color: #495057;background-color: #fff;border-color: #2192FF;outline: 0;box-shadow: none;background-color: #eee}

@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
-    background: #f4f4f4;
+    background: #E4FFFF;
     margin: 0;
     padding: 20px;
   }
@@ -46,4 +46,11 @@ body {
   
   .blog-content button:hover {
     background: #3491ab;
+  }
+
+
+  .blog-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
   }
