@@ -1,0 +1,203 @@
+
+body {
+    margin: 0;
+    font-family: 'Vazir' ,Tahoma !important;
+    background-color: #ffffff;
+}
+
+.main-header {
+    background-color: #ffff00; /* آبی کم‌رنگ سایت */
+    padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #00b4d8;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+.search-form .form-control {
+    border-radius: 0.5rem;
+}
+
+.search-form .btn {
+    background-color: #00b4d8 ;
+    color: #ffffff;
+}
+
+.search-form .btn:hover {
+    background-color: #00b4d8;
+    color: #e4ffff;
+}
+
+/* Footer */
+.footer {
+    background-color: #e4ffff; 
+    color: rgb(0, 0, 0);
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer p, .footer ul {
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #004654;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffff00 ;
+    text-decoration: underline;
+}
+
+.footer .social-links a {
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+/* Wellcome section */
+
+.hero-section {
+    background-image: url('../img/gym-diet-cover.jpg');
+    height: 400px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #00000077;
+    background-blend-mode: darken; /* ترکیب رنگ پس‌زمینه */
+    color: white; /* متن روشن */
+}
+
+.hero-section h1,
+.hero-section p {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    color: white;
+}
+
+
+.btn {
+    background-color: #ffff00;
+    color: #333;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0e000;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 15px; /* گوشه‌های گرد */
+    transition: transform 0.3s ease; /* اضافه کردن انیمیشن */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* افکت شناور هنگام هاور */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #00b4d8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #009db8;
+}
+
+.text-success {
+    color: #28a745;
+    font-size: 1.2rem;
+}
+
+/* login register */
+
+/* فرم‌های ورود/ثبت‌نام */
+.login-register-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.login-register-container .card {
+    background-color: #e4ffff;
+    border: none;
+}
+
+.login-register-container h2,
+.login-register-container h5 {
+    color: #00b4d8;
+}
+
+.login-input:focus {
+    border-color: #00b4d8;
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.25);
+}
+
+.login-register-container .card {
+    background-color: #ffffff;
+    border: none;
+}
+
+.login-register-container h4 {
+    color: #000000;
+}
+
+.login-input:focus {
+    border-color: #00b4d8;
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.25);
+}
+
+@media (max-width: 768px) {
+  .login-register-container .card .row > div {
+    border: none !important;
+  }
+}
+
+.login-form-col {
+    padding-left: 2rem;
+    border-left: 2px solid #00b4d8;
+}
+
+.register-form-col {
+    padding-right: 2rem;
+}
+
+/* forgot password*/
+
+.forgot-password-container .card {
+    background-color: #ffffff;
+    border: 1px solid #00b4d8;
+  }
+  
+  .forgot-password-container .btn-primary {
+    background-color: #00b4d8;
+    border: none;
+  }
+  
