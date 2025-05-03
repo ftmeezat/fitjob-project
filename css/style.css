@@ -201,3 +201,9 @@ body {
     border: none;
   }
   
+
+  .article-text p {
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+  }

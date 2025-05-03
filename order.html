@@ -89,7 +89,16 @@
             <label for="weight" class="form-label">وزن (کیلوگرم)</label>
             <input type="number" class="form-control" id="weight" required>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
+            <label for="goal" class="form-label">انتخاب پلن رژیم</label>
+            <select id="goal" class="form-select" required>
+              <option selected disabled>انتخاب کنید</option>
+              <option>سه ماهه</option>
+              <option>شش ماهه</option>
+              <option>یک ساله</option>
+            </select>
+          </div>
+          <div class="col-md-4">
             <label for="goal" class="form-label">هدف از رژیم</label>
             <select id="goal" class="form-select" required>
               <option selected disabled>انتخاب کنید</option>
@@ -98,7 +107,7 @@
               <option>تثبیت وزن</option>
             </select>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label for="activity" class="form-label">میزان فعالیت فیزیکی</label>
             <select id="activity" class="form-select" required>
               <option selected disabled>انتخاب کنید</option>
