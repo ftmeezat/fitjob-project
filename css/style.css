@@ -6,7 +6,7 @@ body {
 }
 
 .main-header {
-    background-color: #ffff00; /* آبی کم‌رنگ سایت */
+    background-color: #e4ffff;
     padding: 0.5rem 0;
 }
 
@@ -15,28 +15,19 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: #00b4d8;
+    color: #000000;
     font-weight: 500;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #ffffff;
+    color: #00b4d8;
 }
 
-.search-form .form-control {
-    border-radius: 0.5rem;
+.search-form .btn{
+    background-color: #ffff00;
 }
 
-.search-form .btn {
-    background-color: #00b4d8 ;
-    color: #ffffff;
-}
-
-.search-form .btn:hover {
-    background-color: #00b4d8;
-    color: #e4ffff;
-}
 
 /* Footer */
 .footer {
@@ -54,18 +45,13 @@ body {
 }
 
 .footer a {
-    color: #004654;
+    color: #ffff00;
     text-decoration: none;
 }
 
 .footer a:hover {
     color: #ffff00 ;
     text-decoration: underline;
-}
-
-.footer .social-links a {
-    font-size: 1.2rem;
-    margin: 0 10px;
 }
 
 /* Wellcome section */
