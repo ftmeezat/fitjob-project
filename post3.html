@@ -53,7 +53,7 @@
     </nav>
 
   <!-- محتوای پست -->
-  <div class="container col-md-7 border border-2 rounded" style="border-color: #00b4d8; margin-top: 40px;">
+  <div class="container col-md-7 border border-2 card shadow rounded-4" style="border-color: #00b4d8; margin-top: 40px;">
     <br><br><br>
     <h1 class="mb-4">نقش تغذیه در رسیدن به تناسب اندام</h1>
     <p class="text-muted mb-4">تاریخ یا نویسنده | دسته‌بندی</p>
@@ -148,6 +148,47 @@
     </p>
     
   </div>
+
+  <!-- بخش نظرات به صورت کارت -->
+<div class="container col-md-7 mt-5 mb-5">
+    <div class="card shadow rounded-4">
+      <div class="card-body">
+        <h3 class="card-title mb-4">نظرات کاربران</h3>
+  
+        <!-- فرم ثبت نظر -->
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">نام شما</label>
+            <input type="text" class="form-control" id="name" placeholder="نام خود را وارد کنید">
+          </div>
+          <div class="mb-3">
+            <label for="comment" class="form-label">نظر شما</label>
+            <textarea class="form-control" id="comment" rows="4" placeholder="نظر خود را بنویسید"></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning text-dark">ارسال نظر</button>
+        </form>
+  
+        <!-- نظرات نمونه -->
+        <hr class="my-4">
+        <h5 class="mb-3">نظرات قبلی:</h5>
+  
+        <div class="card mb-3 bg-light">
+          <div class="card-body">
+            <h6 class="card-subtitle mb-1 text-primary">سارا:</h6>
+            <p class="card-text mb-0">خیلی مقاله مفیدی بود. ممنون بابت توضیحات کاملتون 🙏</p>
+          </div>
+        </div>
+  
+        <div class="card mb-3 bg-light">
+          <div class="card-body">
+            <h6 class="card-subtitle mb-1 text-primary">علی:</h6>
+            <p class="card-text mb-0">من همیشه مشکل داشتم با پیدا کردن رژیم مناسب. نکاتتون واقعاً کاربردی بودن 👌</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
     <!-- Footer -->
     <footer class="footer text-white py-4" dir="rtl">
