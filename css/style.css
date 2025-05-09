@@ -21,11 +21,11 @@ body {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #ffff00;
+    color: #fcd34d ;
 }
 
 .search-form .btn{
-    background-color: #ffff00;
+    background-color: #fcd34d ;
 }
 
 
@@ -45,12 +45,12 @@ body {
 }
 
 .footer a {
-    color: #ffff00;
+    color: #fcd34d ;
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: #ffff00 ;
+    color: #fcd34d  ;
     text-decoration: underline;
 }
 
@@ -75,13 +75,13 @@ body {
 
 
 .btn {
-    background-color: #ffff00;
+    background-color: #fcd34d ;
     color: #333;
     border: none;
 }
 
 .btn-warning:hover {
-    background-color: #e0e000;
+    background-color: #fcd34d ;
 }
 
 /* Cards */
