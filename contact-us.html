@@ -24,45 +24,53 @@
 
     <!-- محتوای صفحه تماس با ما -->
     <div class="container my-5">
-        <h1 class="text-center mb-4">تماس با فیت‌جاب</h1>
-        <p class="lead text-center mb-5">لطفاً فرم زیر را پر کنید تا تیم ما در اسرع وقت با شما تماس بگیرد.</p>
-
-        <!-- فرم تماس -->
-        <div class="card shadow-lg p-4 rounded-4">
-            <div class="col-md-8 offset-md-2">
-                <form action="submit_form.php" method="POST">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">نام کامل</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">ایمیل</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">پیام</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">شماره تلفن (اختیاری)</label>
-                        <input type="tel" class="form-control" id="phone" name="phone">
-                    </div>
-                    <button type="submit" class="btn btn-primary">ارسال پیام</button>
-                </form>
-            </div>
+      <h1 class="text-center mb-4">تماس با فیت‌جاب</h1>
+      <p class="lead text-center mb-5">لطفاً فرم زیر را پر کنید تا تیم ما در اسرع وقت با شما تماس بگیرد.</p>
+    
+      <div class="card shadow-lg p-4 rounded-4">
+        <br>
+        <div class="row align-items-center">
+    
+          <!-- سمت راست: فرم تماس -->
+          <div class="col-md-6 border-end-md mb-4 mb-md-0">
+            <form action="submit_form.php" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">نام کامل</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">ایمیل</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">پیام</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">شماره تلفن (اختیاری)</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+              </div>
+              <button type="submit" class="btn btn-primary">ارسال پیام</button>
+            </form>
+          </div>
+    
+          <!-- سمت چپ: دریافت رژیم سریع -->
+        <div class="col-md-6 text-center px-4">
+          <div class="text-center mb-4">
+            <img src="img/contact us meal.jpg" alt=" فیت‌جاب" class="rounded-4" style="width: 100%; height: auto; object-fit: cover;">
+          </div>
+            <h4 class="mb-3">دریافت رژیم سریع و شخصی‌سازی‌شده</h4>
+            <p>
+              اگر وقت ندارید فرم تماس را پر کنید، می‌توانید مستقیماً وارد صفحه دریافت رژیم شوید و فقط با چند کلیک، برنامه غذایی خود را دریافت کنید.
+            </p>
+            <a href="get-plan.html" class="btn btn-primary btn-sm mt-3">دریافت رژیم سریع</a>
+          </div>
+    
         </div>
-
-        <!-- اطلاعات تماس -->
-        <div class="my-5 text-center">
-            <h3>اطلاعات تماس</h3>
-            <p>شما می‌توانید از روش‌های زیر با ما در ارتباط باشید:</p>
-            <ul class="list-unstyled">
-                <li><strong>تلفن:</strong> +98 21 1234 5678</li>
-                <li><strong>ایمیل:</strong> info@fitjob.com</li>
-                <li><strong>آدرس:</strong> تهران، خیابان ولیعصر، پلاک ۵۶</li>
-            </ul>
-        </div>
+        <br>
+      </div>
     </div>
+    
 
  <div id="footer"></div>
  <script src="layout.js"></script>

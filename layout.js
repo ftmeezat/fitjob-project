@@ -41,20 +41,14 @@ const footerHTML = `
 <!-- Footer -->
 <footer class="footer text-white py-4" dir="rtl">
   <div class="container">
-    <div class="row">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/fitjob logo.png" height="50px" alt="FitJob Logo">
-      </a>
-    </div>
 
     <br><br>
 
     <div class="row">
       <div class="col-md-3">
-        <h5 style="color: #fcd34d;">
-          <i class="fas fa-info-circle me-2"></i>          درباره ما
-        </h5>
-        <p>ما در فیت‌جاب تلاش می‌کنیم سلامت شغلی را با تغذیه درست ترکیب کنیم.</p>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/fitjob logo white.png" height="50px" alt="FitJob Logo">
+        </a>
       </div>
 
       <div class="col-md-3" style="color: #fcd34d;">
@@ -77,7 +71,7 @@ const footerHTML = `
         <p>
           <i class="fas fa-envelope ms-2"></i>
           ایمیل:
-          <a href="mailto:info@fitjob.com" class="text-white">info@fitjob.com</a>
+          <a href="mailto:info@fitjob.com" class="text-white">info[at]fitjob.com</a>
         </p>
         <p>
           <i class="fas fa-phone ms-2"></i>
@@ -99,7 +93,7 @@ const footerHTML = `
     </div>
 
     <div class="text-center pt-3" style="color: #fcd34d;">
-      <p class="mb-0">&copy; 2025 <a href="index.html">فیت‌جاب</a> - تمامی حقوق محفوظ است.</p>
+      <p class="mb-0">&copy; 2025 <a href="index.html">فیت‌جاب</a> - تمامی حقوق برای فاطمه سادات رضوی و فاطمه عزت‌نشان محفوظ است.</p>
     </div>
   </div>
 </footer>

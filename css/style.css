@@ -5,6 +5,49 @@ body {
     background-color: #e4ffff !important;
 }
 
+/* رنگ پس‌زمینه */
+.bg-primary {
+  background-color: #009db8 !important;
+}
+
+/* رنگ متن */
+.text-primary {
+  color: #009db8 !important;
+}
+
+/* رنگ بردر */
+.border-primary {
+  border-color: #009db8 !important;
+}
+
+/* دکمه پر (Filled) */
+.btn-primary {
+  background-color: #009db8 !important;
+  border-color: #009db8 !important;
+  color: white !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #006c80 !important;
+  border-color: #006c80 !important;
+}
+
+/* دکمه خطی (Outline) */
+.btn-outline-primary {
+  color: #009db8 !important;
+  border: 1px solid #009db8 !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #009db8 !important;
+  color: white !important;
+  border-color: #006c80 !important;
+}
+
+
 .main-header {
     background-color: #009db8;
     padding: 0.5rem 0;
@@ -223,11 +266,64 @@ body {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    animation: spin 1s linear infinite;
+    animation: spin 0.5s linear infinite;
   }
   
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+  
+
+  /*استایل شغل شما- svg*/
+  .scribble-container {
+    position: relative;
+    display: inline-block;
+    padding: 2px 4px;
+  }
+  
+  .scribble {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .scribble-path {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: drawScribble 3s ease-in-out infinite;
+  }
+  
+  @keyframes drawScribble {
+    0% {
+      stroke-dashoffset: 300;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      stroke-dashoffset: 300;
+      opacity: 0;
+    }
+  }
+  
+/*راستچین کردن نظرات در پست های بلاگ*/
+  .comment-card .card-text {
+    text-align: right;
+  }
+  
+  .comment-card .card-subtitle {
+    text-align: right;
   }
   
